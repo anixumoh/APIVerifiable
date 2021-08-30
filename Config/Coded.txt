@@ -1,0 +1,13 @@
+ switch (fetchvalue("Environment")) {
+            case "Production":
+                baseurl = fetchvalue("BrowserName");
+                break;
+
+            case "UAT":
+                baseurl = fetchvalue("BrowserName2");
+                break;
+        }
+
+
+      First Bank :2031425041
+      Acct Name:ENIOLA Iyaomolere
